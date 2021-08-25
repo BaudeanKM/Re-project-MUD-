@@ -1,0 +1,107 @@
+<head>
+    <title>Page 3</title>
+
+    <body> 
+        <h1>Page 3</h1>   
+        <a href="Projet Re-Hearth.html"> Retour à l'accueil </a>
+    </body>
+
+</head> 
+</br>
+    <a href="Page 2.html"> lien vers la page 2 </a>
+</br>
+    <a href="Page 4.html"> lien vers la page 4 </a>
+
+    <p>Précisez le nom de votre personnage</p>
+
+    <form method="post" action="traitement.php">
+
+<p>Celui-ci doit contenir un nom ainsi qu'un prénom</p>
+
+<p>
+        <!--Pour mettre du texte à côté de la zone de texte -->
+        <label for="nom">Votre nom:</label>*
+        <!--Créer une zone de texte -->
+        <input type="text" name="nom" id="nom" placeholder="Ex : Piticu" size="25" maxlength="15" /></p>
+       
+</form>
+
+<p>Maintenant passons à la suite</p>
+
+<form method="post" action="traitement.php">
+    
+    <p>Création de compte</p>
+    
+    <p>
+        <!--Pour mettre du texte à côté de la zone de texte -->
+        <label for="pseudo">Votre email:</label>
+        <!--Créer une zone de texte -->
+        <input type="email" name="pseudo" id="pseudo" placeholder="Ex : Piticu@kiwimail.com" required />
+    <br/>
+<label for="pass">Votre mot de passe:</label>
+
+<input type="password" name="pass" id="pass"/>
+
+</p>
+       
+</form>
+<!-- Code pour une zone de texte plutôt grande pouvant servir par exemple à ecrire le background ou la description etc.-->
+
+<form method="post" action="traitement.php">
+    <p>
+<!-- Zone email à ajouter-->
+        <input type="email" />
+    </p>
+<p>
+    <label for="Description PJ">Decrivez votre personnage, ses habits, sa couleur de peau, les détails qui le caractérisent visuelement.</label>
+    <br/>
+    <!--Rows égal rangées et cols égal nombre caractères sur ligne-->
+    <textarea name="Description PJ" id="Description PJ" rows="12" cols="50"></textarea>
+
+    
+</p>
+
+    </form>
+        <form method="post" action="traitement.php">
+            <p>
+                <label for="search">Rechercher:</label>
+                <input type="search" />
+            </p>
+        </form>
+
+        <p>Dans quel univers allez vous jouer ?</p>
+
+        <!-- type radio, c'est à dire des boutons à cocher-->
+
+<div>
+  <input type="radio" id="Tolkien" name="univers" value="Tolkien"
+         checked>
+  <label for="Tolkien">Tolkien</label>
+</div>
+
+<div>
+  <input type="radio" id="Altergi" name="univers" value="Altergi">
+  <label for="Altergi">Altergi</label>
+</div>
+
+<div>
+  <input type="radio" id="Star Wars" name="univers" value="Star Wars">
+  <label for="Star Wars">Star Wars</label>
+</div>
+<p>
+    Choisissez votre Race :
+</p>
+<p>
+    <!--Menu déroulant-->
+<select name="my_html_select_box">
+    
+
+	<option>Nain </option>
+	<option>Elfe</option>
+	<option>Humain</option>
+    <option>Orc</option>
+</p>
+
+</select>
+    </body>
+</head>

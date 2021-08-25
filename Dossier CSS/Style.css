@@ -1,0 +1,9 @@
+/* mettre un point pour indiquer que c'est une classe */
+.introduction
+{
+    color:blue;
+}
+#gros_italique /* on met un diese pour indiquer que c'est un id */
+{
+    font-size : 30px; /* taille en pixels */
+}
